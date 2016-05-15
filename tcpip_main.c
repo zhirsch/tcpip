@@ -289,7 +289,7 @@ int main() {
     close(fd);
     return 1;
   }
-  if (run("ip address add dev %s local 10.1.10.42", dev) < 0) {
+  if (run("ip address add dev %s local 10.1.10.41", dev) < 0) {
     close(fd);
     return 1;
   }
